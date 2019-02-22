@@ -1,7 +1,17 @@
-h1[id="main-header"] {
+h1[class="main-header"] {
 	
 	color: green;
 	z-index: 99;
 	align: center;
+	
+}
+div[class="main-header"] {
+	
+	width: 100%;
+	height: 12%;
+	padding: 12%;
+	background-color: #393939;
+	z-index: 99;
+	
 	
 }

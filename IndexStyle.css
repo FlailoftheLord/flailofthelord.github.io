@@ -1,5 +1,6 @@
 h1[id="main-header"] {
 	
 	color: green;
+	z-index: 99;
 	
 }

@@ -1,17 +1,51 @@
-h1[class="main-header"] {
+h1.main-header {
 	
 	color: green;
 	z-index: 99;
-	align: center;
+	margin-left: 9%;
+	font-family: calibri;
+	font-size: 4vw;
+	font-variant: small-caps;
 	
 }
-div[class="main-header"] {
+div.main-header {
 	
-	width: 100%;
-	height: 12%;
-	padding: 12%;
+	width: 99%;
+	height: 10%;
+	padding: 3.8%;
 	background-color: #393939;
 	z-index: 99;
 	
 	
 }
+
+ul.nav-links {
+	
+	list-style-type: none;
+	
+}
+
+
+li a.nav-links {
+	
+	float: left;
+	padding: 1%;
+	margin-left: 4%;
+	margin-right: 4%;
+	background-color: #393950;
+	font-family: arial;
+	color: #008040;
+	
+}
+
+
+
+a:hover.nav-links {
+	
+	background: hexa(#0f0f0f, 0.2%);
+	color: #bfbfbf;
+	
+}
+
+
+

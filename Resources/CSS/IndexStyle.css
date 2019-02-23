@@ -1,11 +1,8 @@
 /*
 wahahaha
 */
-object#nav-bar {
-	position: absolute;
-	overflow: hidden;
-	display: inline;
-	
+body {
+	background-image: url("../Images/Background-1.png");
 }
 
 

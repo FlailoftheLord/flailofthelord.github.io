@@ -1,9 +1,11 @@
 div.main-header {
 	
 	top: 0;
+	left: 0;
 	width: 100%;
 	padding: 3.6%;
-	background-color: #393939;
+	background-color: rgba(55, 55, 55, 0.89);
+	opacity: 80%;
 	position: fixed;
 	overflow: hidden;
 	color: #c5d3ab;
@@ -26,6 +28,11 @@ h1.main-header, a.main-header, a:active.main-header, a:hover.main-header, a:visi
 
 }
 
+div.main-header h3#about {
+	margin-left: 40%;
+	
+}
+
 
 
 @keyframes navbar-animation {
@@ -46,12 +53,12 @@ h1.main-header, a.main-header, a:active.main-header, a:hover.main-header, a:visi
 	padding: 1%;
 	margin-left: 4%;
 	margin-right: 4%;
-	background-color: #393950;
+	background-color: #393939;
 	color: #449904;
 	font-family: arial;
 
 }
 a:hover.nav-links, a:active.nav-links {
-	animation: navbar-animation 0.6s ease-in-out 0s 1 both;
+	animation: navbar-animation 0.3s ease-in-out 0s 1 both;
 
 }

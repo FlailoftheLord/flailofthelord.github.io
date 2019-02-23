@@ -6,9 +6,8 @@ h1.main-header {
 	font-family: calibri;
 	font-size: 4vw;
 	font-variant: small-caps;
-	shadow-color: #616161;
-	shadow-size: 1;
-	
+	text-shadow: 1px 1px 3px #004000;
+
 }
 div.main-header {
 	
@@ -18,12 +17,11 @@ div.main-header {
 	background-color: #393939;
 	z-index: 99;
 	overflow: hidden;
-	
-	
+
 }
 
-@keyframes navbar-animation {	
-	to {
+@keyframes navbar-animation {
+	100% {
 	background-color: #0f0f0f;
 	color: #c2dcb4;
 	}
@@ -33,7 +31,7 @@ ul.nav-links {
 	
 	list-style-type: none;
 	overflow: hidden;
-	
+
 }
 
 
@@ -47,15 +45,12 @@ li a.nav-links, a:visited.nav-links {
 	color: #449904;
 	text-decoration: none;
 	font-family: arial;
-	
-	
+
 }
 
 li a:hover.nav-links, a:active.nav-links {
-
 	animation: navbar-animation 0.6s ease-in-out 0s 1 both;
-	
-	
+
 }
 
 

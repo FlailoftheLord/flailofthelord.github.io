@@ -1,5 +1,6 @@
 div.main-header {
 	
+	z-index: 99;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -33,11 +34,19 @@ div.main-header h3#about {
 	
 }
 
+#nav-bar {
+	list-style-type: none;
+	width: 78%;
+	
+	overflow: hidden;
+	background-color: rgba(50, 50, 50, 0.9);
+}
+
 
 
 @keyframes navbar-animation {
 	100% {
-	background-color: #0f0f0f;
+	background-color: rgba(10, 10, 10, 1.0);
 	color: #c2dcb4;
 	}
 }
@@ -47,13 +56,14 @@ div.main-header h3#about {
 
 .nav-links {
 	
+	display: inline;
 	outline: none;
 	text-decoration: none;
 	float: left;
 	padding: 1%;
-	margin-left: 4%;
-	margin-right: 4%;
-	background-color: #393939;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: rgba(58, 58, 58, 0.98);
 	color: #449904;
 	font-family: arial;
 

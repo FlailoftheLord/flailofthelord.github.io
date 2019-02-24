@@ -3,14 +3,13 @@
  * 
  */
 
-var content = document.getElementByClass("content-box");
-var size = content.scrollTop;
+var size = document.getElementByClass("content-box").scrollTop;
 
 window.onscroll = function() {
 
 	var nav-pane = document.getElementById("main-header");
 
-	var newSize = content.scrollTop;
+	var newSize = document.getElementByClass("content-box").scrollTop;
 
 	if (newSize < size) {
 		nav-pane.style.padding = "1.6%";

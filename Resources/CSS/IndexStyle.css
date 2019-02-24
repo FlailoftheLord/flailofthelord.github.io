@@ -3,23 +3,22 @@ wahahaha
 */
 body {
 	background-image: url("../Images/Background-1.png");
+	background-repeat: 0;
+	background-position: top-left;
 }
 
 .content-box {
-	
-	
-	position: absolute;
+
+	position: relative;
 	float: left;
 	overflow: auto;
-	margin-top: 30%;
-	margin-left: 25%;
-	margin-right: 25%;
+	margin: 30% 0px 0px 20%;
 	padding: 5%;
 	text-align: center;
 	width: 50%;
 	background-color: rgba(60, 60, 60, 0.6);
 	color: #c0c0c0;
-	font-size: 200%;
+	font-size: 152%;
 	
 }
 

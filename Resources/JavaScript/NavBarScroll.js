@@ -3,25 +3,22 @@
  * 
  */
 
-window.onwheel = function() {
-	scrollFunction()
-	
-};
-
-var navlink = document.getElementById("nav-bar");
-var navLinks = document.getElementByClass("nav-links");
-
 var content = document.getElementByClass("content-box");
+var size = content.scrollTop;
 
-function scrollFunction() {
-  if (content.style.margin-top < content.style.margin-top * 1.2) {
-	  navlink.style.display = "hidden";
-	  navLinks.style.display = "hidden";
-    
-  } else {    
-	  navLinks.style.display = "hidden";
-      navlink.style.display = "inline";
-    
-  }
-  
+window.onscroll = function() {
+
+	var nav-pane = document.getElementById("main-header");
+
+	var newSize = content.scrollTop;
+
+	if (newSize < size) {
+		nav-pane.style.padding = "1.6%";
+
+	} else {    
+		nav-pane.style.padding = "2.3%";
+
+	}
+
+
 }

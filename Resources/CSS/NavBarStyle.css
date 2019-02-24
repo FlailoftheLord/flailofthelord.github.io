@@ -4,8 +4,8 @@ div.main-header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding: 3.6%;
-	background-color: rgba(55, 55, 55, 0.89);
+	padding: 2.3%;
+	background-color: rgba(55, 52, 55, 0.89);
 	opacity: 80%;
 	position: fixed;
 	overflow: hidden;
@@ -21,9 +21,9 @@ h1.main-header, a.main-header, a:active.main-header, a:hover.main-header, a:visi
 	outline: none;
 	text-decoration: none;
 	color: green;
-	margin-left: 4.5%;
+	margin-left: 3.2%;
 	font-family: calibri;
-	font-size: 4vw;
+	font-size: 3.6vw;
 	font-variant: small-caps;
 	text-shadow: 1px 1px 3px #004000;
 
@@ -34,14 +34,14 @@ div.main-header h3#about {
 	
 }
 
-#nav-bar {
+#nav-bar, #navigation {
 	list-style-type: none;
-	width: 78%;
-	
+	width: 62%;
+	float: left;
+	display: inline;
 	overflow: hidden;
-	background-color: rgba(50, 50, 50, 0.9);
+	background-color: rgba(58, 55, 58, 0.9);
 }
-
 
 
 @keyframes navbar-animation {
@@ -56,14 +56,13 @@ div.main-header h3#about {
 
 .nav-links {
 	
-	display: inline;
+	display: block;
 	outline: none;
 	text-decoration: none;
 	float: left;
 	padding: 1%;
-	margin-left: 5%;
-	margin-right: 5%;
-	background-color: rgba(58, 58, 58, 0.98);
+	margin-left: 2.8%;
+	background-color: rgba(58, 55, 58, 0.98);
 	color: #449904;
 	font-family: arial;
 

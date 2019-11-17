@@ -4,7 +4,7 @@ wahahaha
 body {
 	background-image: url("../Images/Background-1.png");
 	background-repeat: no-repeat;
-	scroll: none;
+	background-attachment: fixed;
 }
 
 .content-box {

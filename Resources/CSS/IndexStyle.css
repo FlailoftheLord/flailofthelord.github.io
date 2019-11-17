@@ -38,26 +38,66 @@ body {
 
 .resource-image {
 
-	float: left;
+float: right;
+	position: relative;
 	height: 12%;
 	margin-left: 15%;
 
 }
 
-.resource-link {
+.resource-link, .resource-link:visited {
+	display: inline-flex;
+	overflow: hidden;
+	font-size: 1.9vw;
+	background-color: rgba(40, 40, 40, 0.69);
+	padding: 1.8% 12.6%;
+	margin: 1.6vw;
 	text-decoration: none;
-}
-
-.resource-text {
-		font-family: times cursive;
-		background-color: rgba(40, 40, 40, 0.69);
-		padding: 1.8%;
-		transition: 0.4s;
+	font-family: inherit;
+	font-weight: bold;
+	color: green;
+	transition: 0.4s;
 
 }
 
-.resource-text:hover {
+.resource-link:hover, .resource-link:active {
 
-	background-color: rgb(40, 40, 40);
+	background-color: rgb(30, 30, 30);
+	transition: 0.4s;
+
+}
+
+
+.map-box {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(10%, 50%));
+	font-size: 1.6vw;
+	font-family: inherit;
+	background-color: rgba(80, 80, 20, 0.72);
+	padding: 3.6%;
+	margin: 1.2vw;
+  text-decoration: none;
+	transition: 0.6s;
+
+}
+
+.map-box:hover {
+	background-color: rgba(40, 40, 10, 0.96);
+
+}
+
+.content-download, .content-download:visited {
+	text-decoration: none;
+	background-color: rgba(10, 10, 10, 1.0);
+	padding: 1.8% 5.2%;
+	color: rgb(170, 170, 170);
+	transition: 0.3s;
+
+}
+
+.content-download:hover, .content-download:active {
+	color: rgb( 110, 110, 110);
+	background-color: rgba(10, 10, 10, 1.0);
+	transition: 0.5s;
 
 }

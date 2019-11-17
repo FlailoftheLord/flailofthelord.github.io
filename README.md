@@ -1,3 +1,3 @@
 # FlailoftheLord.github.io
 
-Yikes, i have no idea waht i'm doing with this, so bear with me :'>
+Yikes, I have no idea what I'm doing with this, so bear with me :'>

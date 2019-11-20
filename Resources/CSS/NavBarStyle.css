@@ -1,19 +1,6 @@
-.main-header, .main-header:active, .main-header:hover, .main-header:visited {
-
-	outline: none;
-	text-decoration: none;
-	margin-left: 4.8%;
-	font-size: 3.6vw;
-	color: green;
-	font-variant: small-caps;
-	text-shadow: 1px 1px 3px #004000;
-
-}
-
 div.main-header {
-
 	z-index: 99;
-	top: 0;
+	top: 0%;
 	width: 100%;
 	padding-bottom:1.2%;
 	background-color: rgba(55, 52, 55, 0.89);
@@ -22,16 +9,30 @@ div.main-header {
 	overflow: hidden;
 	text-shadow: 1px 1px 1px #0f0f0f;
 	font-family: calibri;
+	transition: 0.6s top;
 
 }
 
-div.main-header h3#about {
-	margin-left: 40%;
+.main-header, .main-header:visited, .main-header:hover, .main-header:active {
+	outline: none;
+	text-decoration: none;
+	margin-left: 4.8%;
+	font-size: 3.6vw;
+	color: green;
+	font-variant: small-caps;
+	text-shadow: 1px 1px 3px #004000;
+	transition: 0.2s;
 
 }
+
+body.scrolled .main-header {
+	top: -18%;
+	transition: 0.6s;
+
+}
+
 
 #nav-bar, #navigation {
-	list-style-type: none;
 	width: 62%;
 	float: left;
 	display: inline;
@@ -47,8 +48,16 @@ div.main-header h3#about {
 	}
 }
 
+@keyframes navbar-shrink {
+	0% {
 
+	} 50% {
 
+	} 100% {
+
+	}
+
+}
 
 .nav-links {
 

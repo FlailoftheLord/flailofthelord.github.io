@@ -48,17 +48,6 @@ body.scrolled .main-header {
 	}
 }
 
-@keyframes navbar-shrink {
-	0% {
-
-	} 50% {
-
-	} 100% {
-
-	}
-
-}
-
 .nav-links {
 
 	display: block;

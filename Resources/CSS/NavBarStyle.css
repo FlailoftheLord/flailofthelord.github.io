@@ -26,14 +26,14 @@ div.main-header {
 }
 
 body.scrolled .main-header {
-	top: -18%;
+	top: -18%vw;
 	transition: 0.6s;
 
 }
 
 
 #nav-bar, #navigation {
-	width: 62%;
+	width: 62%vw;
 	float: left;
 	display: inline;
 	overflow: hidden;

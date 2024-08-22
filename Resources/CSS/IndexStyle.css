@@ -27,22 +27,20 @@ body {
 }
 
 @keyframes basicHover {
-  0% {
-				background-color: rgba(40, 40, 40, 0.69);
+    0% {
+	    background-color: rgba(40, 40, 40, 0.69);
 
-	}
-
+    }
 	100% {
-	  backgrond-color: rgba(20, 20, 20, 0.69);
+	    background-color: rgba(20, 20, 20, 0.69);
 
 	}
 
 }
 
 .resource-image {
-
-  float: right;
-	position: relative;
+    float: right;
+    position: relative;
 	height: 12%;
 	margin-left: 15%;
 

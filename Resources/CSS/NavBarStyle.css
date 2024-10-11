@@ -50,7 +50,7 @@ body.scrolled .main-header {
 
 .nav-links {
 
-	display: block;
+	display: inline;
 	outline: none;
 	text-decoration: none;
 	float: left;
